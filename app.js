@@ -20,8 +20,8 @@ app.use(helmet({
     crossOriginResourcePolicy: { policy: "cross-origin" }
 }));
 app.use(cors({
-    origin: env.CLIENT_BASE_URL,
-    credentials: true
+  origin: true,
+  credentials: true
 }));
 app.use(compression());
 app.use(hpp());
