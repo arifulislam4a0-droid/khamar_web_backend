@@ -1,0 +1,47 @@
+backend/
+├─ package.json
+├─ .env.example
+├─ server.js
+├─ app.js
+├─ config/
+│  ├─ db.js
+│  ├─ env.js
+│  └─ multer.js
+├─ controllers/
+│  ├─ adminAuthController.js
+│  ├─ categoryController.js
+│  ├─ productController.js
+│  ├─ orderController.js
+│  └─ publicController.js
+├─ middlewares/
+│  ├─ adminAuth.js
+│  ├─ errorHandler.js
+│  ├─ notFound.js
+│  ├─ validate.js
+│  ├─ uploadCleanup.js
+│  └─ rateLimiters.js
+├─ models/
+│  ├─ Admin.js
+│  ├─ Category.js
+│  ├─ Product.js
+│  ├─ ProductImage.js
+│  └─ Order.js
+├─ routes/
+│  ├─ adminAuthRoutes.js
+│  ├─ categoryRoutes.js
+│  ├─ productRoutes.js
+│  ├─ orderRoutes.js
+│  ├─ publicRoutes.js
+│  └─ index.js
+├─ services/
+│  ├─ fileService.js
+│  └─ slugService.js
+├─ utils/
+│  ├─ ApiError.js
+│  ├─ asyncHandler.js
+│  ├─ jwt.js
+│  ├─ sanitize.js
+│  └─ seedAdmin.js
+├─ uploads/
+│  └─ products/
+└─ README.md
