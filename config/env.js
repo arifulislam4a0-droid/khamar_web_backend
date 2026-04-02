@@ -10,7 +10,7 @@ module.exports = {
     JWT_EXPIRES_IN: process.env.JWT_EXPIRES_IN || "7d",
     ADMIN_USERNAME: process.env.ADMIN_USERNAME || "admin",
     ADMIN_PASSWORD: process.env.ADMIN_PASSWORD || "admin",
-    CLIENT_BASE_URL: process.env.CLIENT_BASE_URL || "http://127.0.0.1:5500",
+    CLIENT_BASE_URL: process.env.CLIENT_BASE_URL || "https://kk-agro.onrender.com",
     MAX_FILE_SIZE_MB: Number(process.env.MAX_FILE_SIZE_MB || 5)
 };
      
